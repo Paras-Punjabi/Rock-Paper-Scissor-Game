@@ -1,0 +1,111 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Asap", sans-serif;
+  background-color: floralwhite;
+}
+
+.head {
+  text-align: center;
+  height: 80px;
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(94, 56, 43);
+  color: whitesmoke;
+  font-size: 40px;
+}
+.score {
+  border: 2px solid wheat;
+  border-radius: 30px;
+  height: 150px;
+  width: 350px;
+  margin: 10px auto;
+  background-color: wheat;
+  display: flex;
+
+  justify-content: center;
+}
+.user,
+.comp {
+  margin: 20px;
+}
+.score_user,
+.score_comp {
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+.comp {
+  margin-left: 60px;
+}
+.options {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+img {
+  filter: drop-shadow(2px 2px 6px black);
+  height: 200px;
+  width: 200px;
+}
+.options h3 {
+  text-align: center;
+}
+.rock,
+.paper,
+.scissor {
+  margin: 20px;
+  position: relative;
+}
+.display_message {
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  background-color: rgb(194, 172, 117);
+  left: 30%;
+  width: 600px;
+  height: 130px;
+  border: 2px solid rgb(194, 172, 117);
+  border-radius: 40px;
+  top: 30px;
+}
+.display_message:hover {
+  text-decoration: underline;
+}
+.me {
+  font-family: "Asap", sans-serif;
+  font-weight: bolder;
+  width: 176px;
+  margin-left: 45%;
+  text-align: center;
+  display: none;
+}
+.replay {
+  margin-left: 44%;
+  margin-top: 40px;
+  font-size: 30px;
+  border: 3px solid black;
+  border-radius: 23px;
+  width: 175px;
+  background-color: #171607;
+  color: whitesmoke;
+  outline: none;
+  display: none;
+}
+.rock_img {
+  border: 0px solid black;
+  border-radius: 50%;
+}
+.scissor h3:hover,
+.paper h3:hover,
+.rock h3:hover {
+  background-color: tomato;
+  border-radius: 30px;
+  border: 1px solid tomato;
+}
